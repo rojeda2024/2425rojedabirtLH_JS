@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sociedad Gastronómica</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <script src="funciones/funciones.js"></script>
+</head>
+<body>
+    <header>
+        <img src="imagenes/escudo_galdakao.png" align="left" alt="Escudo de Galdakao" class="escudo">
+        <img src="imagenes/escudo_galdakao.png" align="right" alt="Escudo de Galdakao" class="escudo">
+
+        <h3>Bienvenidos a la Sociedad Gastronómica de Galdakao</h3>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="recetas.html">Recetas</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <img id="imagenGastronomia" src="imagenes/plato_fondo.png" alt="Imagen de gastronomía" hspace="5" vspace="5" style="float: right;"
+             onmouseover="cambiarImagen('imagenGastronomia', 'imagenes/imagen_de_fondo.png')"
+             onmouseout="restaurarImagen('imagenGastronomia', 'imagenes/plato_fondo.png')">
+        <div class="content user-select-text" tabindex="0">
+            <div class="ac-container ac-adaptiveCard">
+                <div class="ac-textBlock">
+                    <h3>Presentación de la Sociedad Gastronómica “Sabores de Galdakao”</h3>
+                    <p><strong>¡Bienvenidos a Sabores de Galdakao!</strong></p>
+                    <p>Queridos amigos y amantes de la buena comida,</p>
+                    <p>Nos complace presentarles la <strong>Sociedad Gastronómica “Sabores de Galdakao”</strong>, un lugar donde la pasión por la gastronomía se encuentra con la tradición y la innovación. Nuestra sociedad nace con el objetivo de reunir a personas que comparten el amor por la cocina, la cultura y la convivencia.</p>
+                    <p><strong>¿Quiénes somos?</strong></p>
+                    <p>Somos un grupo de entusiastas de la gastronomía de Galdakao, unidos por el deseo de explorar, aprender y disfrutar de la riqueza culinaria de nuestra región y más allá. En “Sabores de Galdakao”, creemos que la comida es más que un sustento; es una forma de arte, una expresión cultural y una manera de conectar con los demás.</p>
+                    <p><strong>¿Qué ofrecemos?</strong></p>
+                    <ul>
+                        <li><strong>Talleres de cocina</strong>: Aprende nuevas técnicas y recetas de la mano de chefs experimentados.</li>
+                        <li><strong>Catas y degustaciones</strong>: Descubre sabores únicos y productos locales en nuestras sesiones de cata.</li>
+                        <li><strong>Eventos especiales</strong>: Participa en cenas temáticas, concursos de cocina y festivales gastronómicos.</li>
+                        <li><strong>Excursiones culinarias</strong>: Únete a nuestras visitas a mercados, bodegas y productores locales.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>© 2024 Sociedad Gastronómica</p>
+    </footer>
+</body>
+</html>

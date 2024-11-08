@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Sociedad Gastronómica</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <script src="funciones/funciones.js" defer></script>
+   
+        </head>
+<body>
+    <!-- Cabecera común para todas las páginas del proyecto -->
+    <header id="miCabecera">
+        <img src="imagenes/escudo_galdakao.png" align="left" alt="Escudo de Galdakao" class="escudo">
+        <img src="imagenes/escudo_galdakao.png" align="right" alt="Escudo de Galdakao" class="escudo">
+        <h3>Contacto</h3>
+        <nav>
+            <ul>
+                <li><a href="index.html" onclick="cambiarFondoCabecera('lightblue')">Inicio</a></li>
+                <li><a href="historia.html" onclick="cambiarFondoCabecera('lightgreen')">Historia</a></li>
+                <li><a href="recetas.html" onclick="cambiarFondoCabecera('lightcoral')">Recetas</a></li>
+                <li><a href="eventos.html" onclick="cambiarFondoCabecera('lightgoldenrodyellow')">Eventos</a></li>
+                <li><a href="contacto.html" onclick="cambiarFondoCabecera('lightpink')">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Contenido principal de la página de contacto -->
+    <div class="container">
+       <div class="form-container">
+        <h2>Formulario de Contacto</h2>
+        <form id="contactForm" onsubmit="return validarFormulario()">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono">
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+       </div>
+    </div>
+    <!-- Pie de página común para todas las páginas del proyecto -->
+    <footer>
+        <p>© 2024 Sociedad Gastronómica</p>
+    </footer>
+</body>
+</html>
