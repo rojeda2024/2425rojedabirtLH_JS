@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Novedades Recetas</title>
+    <description>Feed RSS con las últimas Recetas </description>
+    <link>https://https://rojeda2024.github.io/2425rojedabirtLH_JS/recetas.html</link>
+    <lastBuildDate>Mon, 09 Oct 2023 12:00:00 GMT</lastBuildDate>
+    <pubDate>Mon, 09 Oct 2023 12:00:00 GMT</pubDate>
+
+    <item>
+      <title>Novedades Eventos</title>
+      <description>Feed con los ultimos Eventos</description>
+      <link>https://https://rojeda2024.github.io/2425rojedabirtLH_JS/eventos.html</link>
+      <pubDate>Mon, 09 Oct 2023 12:00:00 GMT</pubDate>
+    </item>
+
+      </channel>
+</rss>
